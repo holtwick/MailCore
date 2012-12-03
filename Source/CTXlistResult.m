@@ -32,9 +32,6 @@
 #import "CTXlistResult.h"
 
 @implementation CTXlistResult
-{
-    NSMutableArray *_flags;
-}
 
 @synthesize name, flags = _flags;
 

@@ -32,6 +32,10 @@
 #import <Foundation/Foundation.h>
 
 @interface CTXlistResult : NSObject
+{
+  NSMutableArray *_flags;
+  NSString *name;
+}
 
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, strong, readonly) NSArray *flags;
